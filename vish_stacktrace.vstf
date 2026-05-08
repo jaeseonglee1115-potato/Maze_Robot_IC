@@ -1,0 +1,19 @@
+# Current time Sun Apr 26 18:11:44 2026
+# Program = vish
+# Id = "2024.3_2"
+# Version = "2024.11"
+# Date = "Nov 25 2024"
+# Platform = "linux"
+# 0    0xf7b0b061: '<unknown (@0xf7b0b061)>'
+# 1    0x0827403c: 'stripNamespace + 0x3c' in '/cae/apps/data/mentor-2024/questasim/linux/vish'
+# 2    0x083b4feb: '<unknown (@0x83b4feb)>'
+# 3    0x083b502f: '<unknown (@0x83b502f)>'
+# 4    0x083c555e: 'wlfPrepareObjStringValue + 0x13e' in '/cae/apps/data/mentor-2024/questasim/linux/vish'
+# 5    0x082f49fc: '<unknown (@0x82f49fc)>'
+# 6    0x08767fcc: 'hashIterate2 + 0x3c' in '/cae/apps/data/mentor-2024/questasim/linux/vish'
+# 7    0x082f4f80: 'ValueMonitorTimeChange + 0x90' in '/cae/apps/data/mentor-2024/questasim/linux/vish'
+# 8    0x082f5a22: 'ValueMonitorRadixChange + 0x42' in '/cae/apps/data/mentor-2024/questasim/linux/vish'
+# 9    0x0822e91c: 'mti_trace_write_cb + 0x135c' in '/cae/apps/data/mentor-2024/questasim/linux/vish'
+# 10   0x08687628: 'TclCallVarTraces + 0x238' in '/cae/apps/data/mentor-2024/questasim/linux/vish'
+# 11   0x0000000f: '<unknown (@0xf)>'
+# 12   0xec815351: '<unknown (@0xec815351)>'

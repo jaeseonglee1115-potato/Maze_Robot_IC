@@ -1,0 +1,104 @@
+# //  Questa Sim
+# //  Version 2024.3_2 linux Nov 25 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading project Final Project
+# Compile of A2D_intf.sv was successful.
+# Compile of ADC128S_FC.sv was successful.
+# Compile of cmd_proc.sv was successful.
+# Compile of DutyScaleROM.sv was successful.
+# Compile of inert_intf.sv was successful.
+# Compile of inertial_integrator.sv was successful.
+# Compile of IR_Math.sv was successful.
+# Compile of maze_solve.sv was successful.
+# Compile of MazeRunner.sv was successful.
+# Compile of MazeRunner_cal_tb.sv was successful.
+# Compile of MazeRunner_IDLE_tb.sv was successful.
+# Compile of MazeRunner_move_tb.sv was successful.
+# Compile of MazeRunner_SolveLeft_tb.sv was successful.
+# Compile of MazeRunner_SolveMaze_tb.sv was successful.
+# Compile of MazeRunner_turn_tb.sv was successful.
+# Compile of MtrDrv.sv was successful.
+# Compile of PID.sv was successful.
+# Compile of piezo_drv.sv was successful.
+# Compile of PWM8.sv was successful.
+# Compile of PWM12.sv was successful.
+# Compile of RemoteComm.sv was successful.
+# Compile of reset_synch.v was successful.
+# Compile of RunnerPhysics.sv was successful with warnings.
+# Compile of sensor_intf.sv was successful with warnings.
+# Compile of SPI_ADC128S.sv was successful.
+# Compile of SPI_iNEMO4.sv was successful.
+# Compile of SPI_main.sv was successful.
+# Compile of UART.sv was successful.
+# Compile of UART_rx.sv was successful.
+# Compile of UART_tx.sv was successful.
+# Compile of UART_wrapper.sv was successful.
+# Compile of MazeRunner_tb.sv was successful.
+# 32 compiles, 1 failed with no errors.
+# Compile of navigate.sv was successful.
+vsim work.MazeRunner_solvemaze_lft_tb -coverage -voptargs=+acc
+# vsim work.MazeRunner_solvemaze_lft_tb -coverage -voptargs="+acc" 
+# Start time: 13:20:30 on Apr 30,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
+# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
+# ** Note: (vopt-143) Recognized 1 FSM in module "navigate(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "UART_wrapper(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.test_suite(fast)
+# Loading work.MazeRunner_SolveLeft_tb_sv_unit(fast)
+# Loading work.MazeRunner_solvemaze_lft_tb(fast)
+# Loading work.MazeRunner(fast)
+# Loading work.reset_synch(fast)
+# Loading work.UART_wrapper(fast)
+# Loading work.UART(fast)
+# Loading work.UART_tx(fast)
+# Loading work.UART_rx(fast)
+# Loading work.cmd_proc(fast)
+# Loading work.maze_solve(fast)
+# Loading work.navigate(fast)
+# Loading work.inert_intf(fast)
+# Loading work.SPI_main(fast)
+# Loading work.inertial_integrator(fast)
+# Loading work.IR_math(fast)
+# Loading work.PID(fast)
+# Loading work.MtrDrv(fast)
+# Loading work.DutyScaleROM(fast)
+# Loading work.PWM12(fast)
+# Loading work.sensor_intf(fast)
+# Loading work.A2D_intf(fast)
+# Loading work.PWM8(fast)
+# Loading work.piezo_drv(fast)
+# Loading work.RemoteComm(fast)
+# Loading work.RunnerPhysics(fast)
+# Loading work.SPI_iNEMO4(fast)
+# Loading work.inverse_PWM12e(fast)
+# Loading work.ADC128S_FC(fast)
+# Loading work.SPI_ADC128S(fast)
+add testbrowser /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/Coverage/Calibrate_Coverage.ucdb /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/Coverage/MazeSolve_Coverage_Before(Piezo_Wait_Added).ucdb /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/Coverage/Move_Coverage.ucdb /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/Coverage/SolveLeft_Coverage.ucdb /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/Coverage/Turn_Coverage.ucdb
+add testbrowser /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/Coverage/merge.ucdb
+coverage open /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/Coverage/merge.ucdb
+# coverage read -dataset merge /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/Coverage/merge.ucdb
+# /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/Coverage/merge.ucdb opened as coverage dataset "merge"
+coverage report -output Merge_Report.txt -srcfile=* -assert -directive -cvg -codeAll
+# Compile of MazeRunner_IDLE_tb.sv was successful.
+coverage open /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/Coverage/Turn_Coverage.ucdb Turn_Coverage
+# coverage read -dataset Turn_Coverage /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/Coverage/Turn_Coverage.ucdb
+# /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/Coverage/Turn_Coverage.ucdb opened as coverage dataset "Turn_Coverage"
+coverage open /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/Coverage/MazeSolve_Coverage_Before(Piezo_Wait_Added).ucdb
+# coverage read -dataset MazeSolve_Coverage_Before_Piezo_Wait_Added_ /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/Coverage/MazeSolve_Coverage_Before(Piezo_Wait_Added).ucdb
+# /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/Coverage/MazeSolve_Coverage_Before(Piezo_Wait_Added).ucdb opened as coverage dataset "MazeSolve_Coverage_Before_Piezo_Wait_Added_"
+coverage report -output MazeSolve_Report.txt -srcfile=* -assert -directive -cvg -codeAll

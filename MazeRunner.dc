@@ -1,0 +1,134 @@
+# \ just means that it continues to next line
+########################################
+# Read in Files
+########################################
+read_file -format sverilog { ./MazeRunner.sv\
+	./UART_wrapper.sv\
+	./cmd_proc.sv\
+	./maze_solve.sv\
+	./navigate.sv\
+	./inert_intf.sv\
+	./IR_Math.sv\
+	./PID.sv\
+	./MtrDrv.sv\
+	./sensor_intf.sv\
+	./piezo_drv.sv\
+	./SPI_main.sv\
+	./UART.sv\
+	./UART_rx.sv\
+	./UART_tx.sv\
+	./PWM12.sv\
+	./PWM8.sv\
+	./reset_synch.sv\
+	./inertial_integrator.sv\
+	./A2D_intf.sv\
+	./DutyScaleROM.sv\
+}
+
+########################################
+# set top level to MazeRunner
+########################################
+set current_design MazeRunner
+
+#######################################################################
+# constrain the clock - 2.75ns synopsys defaults 50% duty 
+# with handle "clk" for pin clk
+#######################################################################
+
+create_clock -name "clk" -period 2.75 {clk}
+
+########################################
+# don't touch our precious clock
+########################################
+set_dont_touch_network [find port clk]
+
+#############################################################################
+# get all inputs other than clock as store then as vairable 
+#############################################################################
+set prim_inputs [remove_from_collection [all_inputs]\
+		[find port clk]]
+
+#############################################################################
+# set the input delays to be uniform except clock
+#############################################################################
+set_input_delay -clock clk 0.6 $prim_inputs
+
+#############################################################################
+# set the driving strength to size 2, 2-input NAND2X2_LVT gate
+#############################################################################
+set_driving_cell -lib_cell NAND2X2_LVT -library\
+		saed32lvt_tt0p85v25c $prim_inputs
+
+#############################################################################
+# add output delay 0.5ns before clock edge
+#############################################################################
+set_output_delay -clock clk 0.5 [all_outputs]
+
+#############################################################################
+# set the load capacitance of the outputs units of pF
+#############################################################################
+set_load 0.1 [all_outputs] 
+
+#############################################################################
+# Set wireload model to 16000 used to estimate the 
+# internal parasitic capacitance 
+#############################################################################
+set_wire_load_model -name 16000 \
+		-library saed32lvt_tt0p85v25c 
+
+#############################################################################
+# set the maximum transition time 0.125ns to avoid hot-carriers
+# this will prevent damage to gate oxide
+#############################################################################
+set_max_transition 0.125 [current_design] 
+
+#############################################################################
+# Give an estiamte for the clock uncertainty, the relative time that clock 
+# arrives to a given flop
+#############################################################################
+set_clock_uncertainty 0.125 clk
+
+############################
+# compile the design
+############################
+compile -map_effort medium
+
+########################################################
+# Fix any violations of hold time
+########################################################
+set_fix_hold clk
+
+############################
+# Remove all hiegherarchy
+############################
+ungroup -all -flatten
+
+############################
+# Lets do another compile
+############################
+# compile -map_effort medium 
+
+#############################################################################
+# Lets do another compile - synopsys seems to have better area after three
+#############################################################################
+compile -map_effort medium 
+
+############################
+# check output of synthesis
+############################
+check_design
+report_timing -delay max
+report_timing -delay min
+report_area
+
+#####################
+# store area output
+#####################
+report_area > MazeRunner_area.txt
+report_timing > MazeRunner_timing.txt
+
+
+########################################################
+# write out resulting synthesis to netlist
+########################################################
+write -format verilog MazeRunner -output MazeRunner.vg

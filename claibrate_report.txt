@@ -1,0 +1,268 @@
+Coverage Report Summary Data by file
+
+=================================================================================
+=== File: /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/A2D_intf.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        15        15         0   100.00%
+    Statements                      23        23         0   100.00%
+    Toggles                        140       113        27    80.71%
+
+=================================================================================
+=== File: /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/ADC128S_FC.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        27        25         2    92.59%
+    Conditions                       8         3         5    37.50%
+    Expressions                      2         2         0   100.00%
+    Statements                      22        21         1    95.45%
+    Toggles                        214       109       105    50.93%
+
+=================================================================================
+=== File: /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/DutyScaleROM.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        65         9        56    13.84%
+    Statements                      66        11        55    16.66%
+    Toggles                         64        62         2    96.87%
+
+=================================================================================
+=== File: /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/IR_Math.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         8         4         4    50.00%
+    Conditions                       2         0         2     0.00%
+    Statements                      11        11         0   100.00%
+    Toggles                        352       203       149    57.67%
+
+=================================================================================
+=== File: /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/MazeRunner.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        10         5         5    50.00%
+    Expressions                     12         0        12     0.00%
+    Statements                       8         8         0   100.00%
+    Toggles                        482       134       348    27.80%
+
+=================================================================================
+=== File: /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/MtrDrv.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         2         2    50.00%
+    Conditions                       4         0         4     0.00%
+    Statements                      12        10         2    83.33%
+    Toggles                        398        51       347    12.81%
+
+=================================================================================
+=== File: /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/PID.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        23        16         7    69.56%
+    Conditions                      10         1         9    10.00%
+    Expressions                      5         2         3    40.00%
+    Statements                      37        35         2    94.59%
+    Toggles                        604       411       193    68.04%
+
+=================================================================================
+=== File: /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/PWM12.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         8         8         0   100.00%
+    Conditions                       4         3         1    75.00%
+    Expressions                     10         5         5    50.00%
+    Statements                      15        15         0   100.00%
+    Toggles                         88        39        49    44.31%
+
+=================================================================================
+=== File: /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/PWM8.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         6         6         0   100.00%
+    Expressions                      1         1         0   100.00%
+    Statements                       8         8         0   100.00%
+    Toggles                         42        25        17    59.52%
+
+=================================================================================
+=== File: /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/RemoteComm.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        20        20         0   100.00%
+    Statements                      25        25         0   100.00%
+    Toggles                        128        44        84    34.37%
+
+=================================================================================
+=== File: /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/RunnerPhysics.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                       112        41        71    36.60%
+    Conditions                      34         4        30    11.76%
+    Expressions                      4         0         4     0.00%
+    Statements                     137        75        62    54.74%
+    Toggles                        704       353       351    50.14%
+
+=================================================================================
+=== File: /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/SPI_ADC128S.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        27        27         0   100.00%
+    Expressions                      5         5         0   100.00%
+    Statements                      39        39         0   100.00%
+    Toggles                        166       153        13    92.16%
+
+=================================================================================
+=== File: /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/SPI_iNEMO4.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        53        39        14    73.58%
+    Conditions                       2         2         0   100.00%
+    Expressions                      3         1         2    33.33%
+    Statements                      84        60        24    71.42%
+    Toggles                        176       135        41    76.70%
+
+=================================================================================
+=== File: /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/SPI_main.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        29        29         0   100.00%
+    Conditions                       8         8         0   100.00%
+    Expressions                      6         2         4    33.33%
+    Statements                      38        38         0   100.00%
+    Toggles                        120       103        17    85.83%
+
+=================================================================================
+=== File: /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/UART.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         48        31        17    64.58%
+
+=================================================================================
+=== File: /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/UART_rx.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        27        26         1    96.29%
+    Conditions                       5         2         3    40.00%
+    Expressions                      1         1         0   100.00%
+    Statements                      37        36         1    97.29%
+    Toggles                         96        95         1    98.95%
+
+=================================================================================
+=== File: /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/UART_tx.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        23        23         0   100.00%
+    Conditions                       6         6         0   100.00%
+    Expressions                      3         1         2    33.33%
+    Statements                      28        28         0   100.00%
+    Toggles                         88        71        17    80.68%
+
+=================================================================================
+=== File: /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/UART_wrapper.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        17        17         0   100.00%
+    Conditions                       4         2         2    50.00%
+    Statements                      26        26         0   100.00%
+    Toggles                        128        42        86    32.81%
+
+=================================================================================
+=== File: /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/cmd_proc.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        32        15        17    46.87%
+    Conditions                       4         2         2    50.00%
+    Statements                      43        25        18    58.13%
+    Toggles                        126        21       105    16.66%
+
+=================================================================================
+=== File: /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/inert_intf.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        31        31         0   100.00%
+    Statements                      42        42         0   100.00%
+    Toggles                        256       193        63    75.39%
+
+=================================================================================
+=== File: /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/inertial_integrator.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        30        28         2    93.33%
+    Conditions                       3         2         1    66.66%
+    Expressions                      1         1         0   100.00%
+    Statements                      49        46         3    93.87%
+    Toggles                        390       210       180    53.84%
+
+=================================================================================
+=== File: /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/maze_solve.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        48         7        41    14.58%
+    Statements                      51        15        36    29.41%
+    Toggles                         90         5        85     5.55%
+
+=================================================================================
+=== File: /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/navigate_shell.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        33         7        26    21.21%
+    Conditions                      19         0        19     0.00%
+    Expressions                      5         0         5     0.00%
+    Statements                      50        21        29    42.00%
+    Toggles                         78         8        70    10.25%
+
+=================================================================================
+=== File: /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/piezo_drv.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        44        22        22    50.00%
+    Conditions                       6         4         2    66.66%
+    Expressions                      4         4         0   100.00%
+    Statements                      71        37        34    52.11%
+    Toggles                        198       111        87    56.06%
+
+=================================================================================
+=== File: /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/reset_synch.v
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         4         0   100.00%
+    Statements                       6         6         0   100.00%
+    Toggles                         10         6         4    60.00%
+
+=================================================================================
+=== File: /filespace/j/jlee2222/ECE551/FINAL_PROJECT_MAZE_SOLVR/sensor_intf.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        83        80         3    96.38%
+    Conditions                      11         5         6    45.45%
+    Expressions                     10         8         2    80.00%
+    Statements                     119       119         0   100.00%
+    Toggles                        782       449       333    57.41%
+
+
+Total Coverage By File (code coverage only, filtered view): 54.47%
+

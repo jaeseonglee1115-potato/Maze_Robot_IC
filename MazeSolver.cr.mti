@@ -1,0 +1,134 @@
+/filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/SPI_iNEMO4.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/SPI_iNEMO4.sv
+QuestaSim vlog 2024.3_2 Compiler 2024.11 Nov 25 2024
+-- Compiling module SPI_iNEMO4
+
+Top level modules:
+	SPI_iNEMO4
+
+} {} {}} /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/SPI_ADC128S.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/SPI_ADC128S.sv
+QuestaSim vlog 2024.3_2 Compiler 2024.11 Nov 25 2024
+-- Compiling module SPI_ADC128S
+
+Top level modules:
+	SPI_ADC128S
+
+} {} {}} /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/inert_intf.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/inert_intf.sv
+QuestaSim vlog 2024.3_2 Compiler 2024.11 Nov 25 2024
+-- Compiling module inert_intf
+
+Top level modules:
+	inert_intf
+
+} {} {}} /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/DutyScaleROM.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/DutyScaleROM.sv
+QuestaSim vlog 2024.3_2 Compiler 2024.11 Nov 25 2024
+-- Compiling module DutyScaleROM
+
+Top level modules:
+	DutyScaleROM
+
+} {} {}} /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/RunnerPhysics.sv {2 {vlog -work work -vopt -sv -stats=none /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/RunnerPhysics.sv
+QuestaSim vlog 2024.3_2 Compiler 2024.11 Nov 25 2024
+-- Compiling module RunnerPhysics
+** Warning: /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/RunnerPhysics.sv(222): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+-- Compiling module inverse_PWM12e
+
+Top level modules:
+	RunnerPhysics
+
+} {} {}} /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/inertial_integrator.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/inertial_integrator.sv
+QuestaSim vlog 2024.3_2 Compiler 2024.11 Nov 25 2024
+-- Compiling module inertial_integrator
+
+Top level modules:
+	inertial_integrator
+
+} {} {}} /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/A2D_intf.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/A2D_intf.sv
+QuestaSim vlog 2024.3_2 Compiler 2024.11 Nov 25 2024
+-- Compiling module A2D_intf
+
+Top level modules:
+	A2D_intf
+
+} {} {}} /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/cmd_proc.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/cmd_proc.sv
+QuestaSim vlog 2024.3_2 Compiler 2024.11 Nov 25 2024
+-- Compiling module cmd_proc
+
+Top level modules:
+	cmd_proc
+
+} {} {}} /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/SPI_main.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/SPI_main.sv
+QuestaSim vlog 2024.3_2 Compiler 2024.11 Nov 25 2024
+-- Compiling module SPI_main
+
+Top level modules:
+	SPI_main
+
+} {} {}} /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/RemoteComm.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/RemoteComm.sv
+QuestaSim vlog 2024.3_2 Compiler 2024.11 Nov 25 2024
+-- Compiling module RemoteComm
+
+Top level modules:
+	RemoteComm
+
+} {} {}} /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/MazeRunner_SolveMaze_tb.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/MazeRunner_SolveMaze_tb.sv
+QuestaSim vlog 2024.3_2 Compiler 2024.11 Nov 25 2024
+-- Compiling package MazeRunner_SolveMaze_tb_sv_unit
+-- Importing package test_suite
+-- Compiling module MazeRunner_solvemaze_tb
+
+Top level modules:
+	MazeRunner_solvemaze_tb
+
+} {} {}} /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/piezo_drv.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/piezo_drv.sv
+QuestaSim vlog 2024.3_2 Compiler 2024.11 Nov 25 2024
+-- Compiling module piezo_drv
+
+Top level modules:
+	piezo_drv
+
+} {} {}} /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/sensor_intf.sv {2 {vlog -work work -vopt -sv -stats=none /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/sensor_intf.sv
+QuestaSim vlog 2024.3_2 Compiler 2024.11 Nov 25 2024
+-- Compiling module sensor_intf
+** Warning: /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/sensor_intf.sv(123): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	sensor_intf
+
+} {} {}} /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/MazeRunner_cal_tb.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/MazeRunner_cal_tb.sv
+QuestaSim vlog 2024.3_2 Compiler 2024.11 Nov 25 2024
+-- Compiling package MazeRunner_cal_tb_sv_unit
+-- Importing package test_suite
+-- Compiling module MazeRunner_cal_tb
+
+Top level modules:
+	MazeRunner_cal_tb
+
+} {} {}} /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/PWM8.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/PWM8.sv
+QuestaSim vlog 2024.3_2 Compiler 2024.11 Nov 25 2024
+-- Compiling module PWM8
+
+Top level modules:
+	PWM8
+
+} {} {}} /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/UART.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/UART.sv
+QuestaSim vlog 2024.3_2 Compiler 2024.11 Nov 25 2024
+-- Compiling module UART
+
+Top level modules:
+	UART
+
+} {} {}} /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/MazeRunner_tb.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/MazeRunner_tb.sv
+QuestaSim vlog 2024.3_2 Compiler 2024.11 Nov 25 2024
+-- Compiling module MazeRunner_tb
+
+Top level modules:
+	MazeRunner_tb
+
+} {} {}} /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/ADC128S_FC.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/n/nlorman/ECE551/ProjGit/FINAL_PROJECT_MAZE_SOLVR/ADC128S_FC.sv
+QuestaSim vlog 2024.3_2 Compiler 2024.11 Nov 25 2024
+-- Compiling module ADC128S_FC
+
+Top level modules:
+	ADC128S_FC
+
+} {} {}}
